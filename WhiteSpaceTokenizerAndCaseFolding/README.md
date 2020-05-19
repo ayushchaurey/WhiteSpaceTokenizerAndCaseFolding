@@ -1,10 +1,10 @@
 # WhiteSpaceTokenizerAndCaseFolding
 ##White Space tokenization:
 Simply through white   space. Hyphen, apostrophes are not considered at all.
-Issue with white space tokenization: “I’m” is one single word but it actually mean “I am”. Similarly a name of a person like “Raja Kumar” should be treated as one word but white space tokenization will count it as two. There are lot many problems with identification of symbols too in white space tokenization. 
+Issue with white space tokenization: “I’m” is one single word but it actually mean “I am”. Similarly a name of a person like “Ayush Kumar” should be treated as one word but white space tokenization will count it as two. There are lot many problems with identification of symbols too in white space tokenization. 
 
 ##Case Folding
-Case folding: Entire input either in small letter or capital letter. In general into small letter word so that two words like RAJA and Raja will be treated same.
+Case folding: Entire input either in small letter or capital letter. In general into small letter word so that two words like AYUSH and Ayush will be treated same.
 Issue with case folding: Meaning of an acronym is lost example “US” is converting into “us”. Clever indexing algorithms can overcome even this problem example algorithm based on user profile, location, user history etc.
  code:
  
